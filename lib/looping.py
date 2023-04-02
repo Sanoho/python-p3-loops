@@ -15,13 +15,13 @@ def square_integers(int_list):
 def fizzbuzz():
     i = 1
     for i in range(1, 101):
-        if i % 3 == 0 and i % 5 == 0 and i != 0:
+        if i % 3 == 0 and i % 5 == 0:
             i = "FizzBuzz"
             print(i)
-        elif i % 5 == 0 and i != 0:
+        elif i % 5 == 0:
             i = "Buzz"
             print(i)
-        elif i % 3 == 0 and i != 0:
+        elif i % 3 == 0:
             i = "Fizz"
             print(i)
         else:
